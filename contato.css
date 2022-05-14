@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(270deg, #d1630ff7 15%, #d1630ff7 15%)
+  }
+  
+  /* HEADER */
+  header {
+    margin: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    vertical-align: center;
+    align-items: center;
+    justify-content: baseline;
+  }
+  
+  #h1 {
+    font-size: 2em;
+    color: rgb(246, 218, 6);
+  }
+  
+  .a1 {
+    padding-left: 100px;
+  }
+  
+  header a {
+    text-decoration: dotted;
+    padding-left: 20px;
+    font-size: 2rem;
+    color: rgb(246, 218, 6);
+  }
+  
+  @keyframes ok {
+    0% {
+      color: rgb(255, 254, 254);
+    }
+    100% {
+      color: rgb(165, 165, 165);
+    }
+  }
+  
+  .alinks:hover {
+    animation: ok 0.5s infinite;
+  }
+  
+  /* fim do header */
+  
+  form {
+    margin-top: 40px;
+  }
+  
+  legend {
+    text-transform: capitalize;
+    font-size: 23px;
+    text-decoration: underline;
+    color: white;
+  }
+  
+  fieldset {
+    color: white;
+  }
+  
+  input {
+    margin: 2px;
+    width: 250px;
+  }
+  
+  .small2 {
+    width: 100px;
+  }
+  
+  #sub1:hover {
+    border: 3px solid rgb(246, 218, 6);
+    font-weight: bold;
+    background-color: rgb(240, 158, 153);
+  }

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(270deg, #d1630ff7 15%, #e9c6a0 85%);
+}
+/* HEADER */
+header {
+  margin: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  vertical-align: center;
+  align-items: center;
+  justify-content: baseline;
+}
+
+#h1 {
+  font-size: 2em;
+  color: rgb(246, 218, 6);
+}
+
+.a1 {
+  padding-left: 100px;
+}
+
+.alinks {
+}
+
+header a {
+  text-decoration: dotted;
+  padding-left: 20px;
+  font-size: 2rem;
+  color: rgb(246, 218, 6);
+}
+
+@keyframes new {
+  0% {
+    color: rgb(255, 254, 254);
+  }
+  100% {
+    color: rgb(165, 165, 165);
+  }
+}
+
+.alinks:hover {
+  animation: new 0.5s infinite;
+}
+/* FIM OF THE HEADER */
+
+/* Ajax photo */
+#ajax img {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 150px;
+}
+/* Fim Ajax photo */
+
+/* Images of the languages */
+.lang {
+  margin: 0 auto;
+  width: 265px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.languages {
+  width: 180px;
+  height: 160px;
+  display: block;
+}
+figcaption {
+  margin-top: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 250px;
+  text-align: center;
+  font-size: 1.5em;
+  margin-left: -25px;
+}
+/* end of the images */
+
+footer {
+  text-align: center;
+  background-color: #d1630ff7;
+  height: 70px;
+  font-size: 1.5em;
+}
